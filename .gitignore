@@ -20,3 +20,5 @@
 aws_key
 
 aws_key.pub
+/.awless/awless.db
+/.awless/aws/rdf/
