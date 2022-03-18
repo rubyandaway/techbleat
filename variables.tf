@@ -21,11 +21,4 @@ variable "public_key_path" {
   default = "aws_key.pub"
 }
 
-#variable "aws_access_key" {}
-#variable "aws_secret_key" {}
-#variable "private_key_path" {}
-#variable "key_name" {}
-#variable "region" {
-#  default = "eu-west-2"
-#}
 
