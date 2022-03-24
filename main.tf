@@ -1,4 +1,14 @@
 terraform {
+  backend "s3" {
+    bucket = "bucket4state54"
+    key    = "dev/terraform.tfstate"
+    region = "us-east-1"
+    acl = "private"
+  }
+
+}
+
+terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -10,6 +20,7 @@ terraform {
 resource "aws_default_vpc" "default" {
 
 }
+
 
 # Configure the AWS Provider
 provider "aws" {

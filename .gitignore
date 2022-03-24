@@ -22,3 +22,16 @@ aws_key
 aws_key.pub
 /.awless/awless.db
 /.awless/aws/rdf/
+
+*.xml
+
+*.iml
+
+#  User-specific stuff .idea files
+.idea
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/tech-bleat-project.iml
+.idea/vcs.xml
+
