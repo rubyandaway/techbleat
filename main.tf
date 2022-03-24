@@ -57,12 +57,6 @@ resource "aws_instance" "httpd-webserver" {
 
 }
 
-output "aws_instance_public_dns" {
-  value = aws_instance.httpd-webserver.public_dns
-}
-
-
-
 resource "aws_db_instance" "rds-database" {
   allocated_storage      = 10
   engine                 = "mysql"
